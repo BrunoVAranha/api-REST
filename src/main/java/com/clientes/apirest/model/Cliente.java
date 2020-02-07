@@ -1,11 +1,9 @@
 package com.clientes.apirest.model;
 
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.math.BigDecimal;
 
 @Entity
 public class Cliente implements Serializable {
